@@ -1,9 +1,9 @@
-const aboutLayout = ({ children }) => {
+const postLayout = ({ children }) => {
 	return (
 		<div>
-			<h1>aboutLayout</h1>
+			<h1>Single Post Layout</h1>
 			{children}
 		</div>
 	);
 };
-export default aboutLayout;
+export default postLayout;

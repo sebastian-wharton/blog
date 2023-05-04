@@ -1,6 +1,6 @@
-const postPage = () => {
+const blogPage = () => {
   return (
-    <div>postPage</div>
+    <div>Single Blog Post</div>
   )
 }
-export default postPage
+export default blogPage

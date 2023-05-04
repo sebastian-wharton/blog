@@ -2,7 +2,7 @@ const HomePage = () => {
 	return (
 		<>
 			<div>
-				<h1>Blog HomePage</h1>
+				<h1>HomePage</h1>
 
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, sit. Ex repellat suscipit iure eum blanditiis

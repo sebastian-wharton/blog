@@ -1,6 +1,6 @@
 // import Head from 'next/head';
 import Header from './components/Header.jsx';
-import './globals.css';
+import '../styles/globals.css';
 
 // const poppins = Poppins({
 // 	weights: ['400', '600'],
@@ -18,7 +18,9 @@ export default function RootLayout({ children }) {
             
 			<body>
 				<Header />
-				<main className='container'>{children}</main>
+                <main className='container'>
+                    { children }
+                </main>
 			</body>
 		</html>
 	);
